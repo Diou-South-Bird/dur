@@ -1,3 +1,5 @@
+# Add `mod.rs` for arm_thumb-linux
+
 # Add inner doc comments to each platform module
 
 # Fix warnings for other platforms
