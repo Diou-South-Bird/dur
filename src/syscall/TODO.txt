@@ -1,0 +1,18 @@
+# Add inner doc comments to each platform module
+
+# Fix warnings for other platforms
+
+# Negate return value for errors in more platforms
+sparc64-linux, powerpc-linux, powerpc64-linux
+
+# Support more platforms
+aarch64 - freebsd, netbsd, openbsd, illumos
+arm - freebsd, netbsd
+powerpc - freebsd, netbsd, openbsd
+powerpc64 - freebsd, openbsd
+riscv64 - freebsd, netbsd, openbsd
+sparc - linux
+sparc64 - netbsd, openbsd, solaris
+x86 - macos
+x86_64 - netbsd, openbsd, illumos, dragonfly, solaris
+* - windows // maybe never
