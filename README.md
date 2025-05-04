@@ -32,3 +32,8 @@ cargo rustc -- -C link-args="/ENTRY:_start /SUBSYSTEM:console" -C no-redzone=tru
 ```bash
 cargo rustc -- -C link-args="-e __start -static -nostartfiles" -C no-redzone=true
 ```
+
+## License
+
+Dur is licensed under an Apache-2.0 license.
+See [`LICENSE`].
