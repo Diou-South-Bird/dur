@@ -1,6 +1,6 @@
 # Dur
 
-DUR (Default UArc Runner), an interpreter and linker implementing the UArc specification.
+*DUR (Default UArc Runner), an interpreter and linker implementing the UArc specification.*
 
 It aims to:
 * Be well-rounded and suitable for standard usage.
