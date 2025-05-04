@@ -1,4 +1,15 @@
 # Dur
+
+DUR (Default UArc Runner), an interpreter and linker implementing the UArc specification.
+
+It aims to:
+* Be well-rounded and suitable for standard usage.
+* Be no-libstd and dependency-free.
+* Leverage as less libcore internals (implementation details) as possible.
+* Be portable; being able to be run on popular Unix-like OSes.
+* Be as fast as possible without generating machine code,
+  meaning that it won't abstract upon memory, syscalls, etc.
+
 ## How to Build
 
 Run `make cargo` at this directory to build.
