@@ -36,4 +36,4 @@ cargo rustc -- -C link-args="-e __start -static -nostartfiles" -C no-redzone=tru
 ## License
 
 Dur is licensed under an Apache-2.0 license.
-See [`LICENSE`].
+See it [here](LICENSE).
