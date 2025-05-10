@@ -40,7 +40,7 @@ fn panic(info: &PanicInfo<'_>) -> ! {
     loop {}
 }
 
-// TODO: Make start logic platform independent (Works on x86_64 macOS & linux? only)
+// TODO: Make start logic platform independent (Works on x86_64 macOS & linux only)
 #[doc(hidden)]
 #[unsafe(no_mangle)]
 pub extern "C" fn _start() {
