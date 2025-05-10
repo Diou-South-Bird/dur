@@ -14,8 +14,8 @@ It aims to:
 
 **NOTE:** Dur is still under development and will building it with these instructions will thus output a debug executable by default.
 
-Run `make cargo` at this directory to build.
-Or run one of the following commands for your OS at this directory to build `dur` from source.
+Clone this repository.
+Run `make cargo` at root to build or run one of the following commands for your OS to build `dur` from source.
 
 ### Linux
 
